@@ -65,7 +65,7 @@ int main()
 		cout << fixed << setprecision(4) << setw(7) << i.x << " " << setw(7) << i.y << " " << setw(7) << i.fit << " " << endl;
 	}
 	sum /= 4;
-	cout << "max: " << sub[3].fit << " average: " << sum << endl << endl;
+	cout << "max: " << sub[3].fit << " middlepoint: " << sum << endl << endl;
 
 	while (n <= 40)
 
